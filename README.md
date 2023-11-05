@@ -6,7 +6,7 @@
 <h1 align="center">Medica Image Segmentation</h1>
 </div>
 
-This repository serves as the template for the third project in the Deep Catalyst course, focusing on medical image segmentation. Explore and utilize this template to kickstart your own medical image segmentation projects, leverage best practices, and accelerate your journey into the world of precise medical diagnostics through deep learning.
+This repository serves as the template , focusing on medical image segmentation. Explore and utilize this template to kickstart your own medical image segmentation projects, leverage best practices, and accelerate your journey into the world of precise medical diagnostics through deep learning.
 
 ## 1. Problem Statement
 The problem is to develop a medical image segmentation system that can accurately identify and segment healthy organs in medical scans, with the goal of improving cancer treatment. The system should be able to analyze various types of medical imaging data, such as CT scans or MRI scans, and accurately delineate the boundaries of healthy organs.
