@@ -11,7 +11,7 @@ This repository serves as the template , focusing on medical image segmentation.
 ## 1. Problem Statement
 develop a medical image segmentation system that can accurately identify and segment healthy organs in medical scans, with the goal of improving cancer treatment. The system should be able to analyze various types of medical imaging data, such as CT scans or MRI scans, and accurately delineate the boundaries of healthy organs.
 
-### Challenges:
+### <code style="color : green">Challenges</code>:
 
 * **Variability in Image Characteristics:** Medical images can vary in terms of resolution, contrast, noise, and artifacts. These variations pose challenges in accurately segmenting healthy organs, as the boundaries may not be clearly defined.
 
