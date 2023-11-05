@@ -9,7 +9,31 @@
 This repository serves as the template for the third project in the Deep Catalyst course, focusing on medical image segmentation. Explore and utilize this template to kickstart your own medical image segmentation projects, leverage best practices, and accelerate your journey into the world of precise medical diagnostics through deep learning.
 
 ## 1. Problem Statement
-In this section, you'll find a comprehensive overview of the problem being addressed in the project.
+The problem is to develop a medical image segmentation system that can accurately identify and segment healthy organs in medical scans, with the goal of improving cancer treatment. The system should be able to analyze various types of medical imaging data, such as CT scans or MRI scans, and accurately delineate the boundaries of healthy organs.
+
+### Challenges:
+
+* **Variability in Image Characteristics:** Medical images can vary in terms of resolution, contrast, noise, and artifacts. These variations pose challenges in accurately segmenting healthy organs, as the boundaries may not be clearly defined.
+
+* **Interpatient Variability:** Each patient's anatomy can differ, making it challenging to develop a generalized segmentation model. The system needs to adapt to different patient populations and account for anatomical variations.
+
+* **Complex Organ Structures:** Some organs, such as the liver or brain, have complex structures with intricate boundaries. Accurately segmenting these organs requires advanced algorithms that can handle complex anatomical shapes.
+
+* **Limited Training Data:** Annotated medical image data for training segmentation models is often limited and requires expert annotation. Acquiring large-scale annotated datasets can be challenging, leading to potential limitations in model performance.
+
+* **Real-time Processing:** In a clinical setting, real-time processing is crucial to support efficient diagnosis and treatment planning. The segmentation system should provide fast and accurate results within a clinically acceptable timeframe.
+
+### Goals:
+
+* **Accurate Segmentation:** The primary goal is to develop a segmentation system that can accurately identify and segment healthy organs in medical scans. The system should provide precise boundaries for further analysis and treatment planning.
+
+* **Robustness and Generalization:** The system should be robust to handle variations in image characteristics and adapt to different patient populations. It should generalize well to unseen data and be effective across different medical imaging modalities.
+
+* **Efficiency:** The segmentation system should be efficient in terms of computational resources and processing time. Real-time or near-real-time segmentation is desirable to support timely decision-making in a clinical setting.
+
+* **Integration with Clinical Workflow:** The system should be seamlessly integrated into the clinical workflow, allowing medical professionals to easily access and utilize the segmented organ information. The output should be compatible with existing medical imaging systems and tools.
+
+* **Performance Evaluation:** A comprehensive evaluation of the segmentation system is necessary to assess its accuracy and performance. It should be compared against ground truth annotations and evaluated using appropriate metrics such as Dice coefficient, Hausdorff distance, or other domain-specific evaluation measures.
 
 ## 2. Related Works
 This section explores existing research and solutions related to medical image segmentation. 
