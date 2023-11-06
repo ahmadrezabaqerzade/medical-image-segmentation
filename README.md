@@ -9,31 +9,46 @@
 This repository serves as the template , focusing on medical image segmentation. Explore and utilize this template to kickstart your own medical image segmentation projects, leverage best practices, and accelerate your journey into the world of precise medical diagnostics through deep learning.
 
 ## 1. Problem Statement
-developing a medical image segmentation system that can accurately identify and segment healthy organs in medical scans, with the goal of improving cancer treatment. The system should be able to analyze various types of medical imaging data, such as CT scans or MRI scans, and accurately delineate the boundaries of healthy organs.
+Diagnosing gastrointestinal tumors is one of the challenges faced by doctors in treating patients. Approximately half of the patients are eligible for radiation therapy, and this procedure should be performed in a way that does not harm the intestines and stomach. By using artificial intelligence (specifically in the field of segmentation), these areas can be identified, helping doctors to expedite patient treatment. Treating patients using this method can reduce daily treatment time from one hour (which can be difficult for patients) to 15 minutes.
 
 ### <code style="color : red">Challenges</code>:
 
-* **Variability in Image Characteristics:** Medical images can vary in terms of resolution, contrast, noise, and artifacts. These variations pose challenges in accurately segmenting healthy organs, as the boundaries may not be clearly defined.
+* **Complexity of images:** Medical images related to the gastrointestinal system have complex structures that can make the analysis and accurate diagnosis of cancerous masses difficult.
 
-* **Interpatient Variability:** Each patient's anatomy can differ, making it challenging to develop a generalized segmentation model. The system needs to adapt to different patient populations and account for anatomical variations.
+* **Size and shape variations of tumors:** Gastrointestinal tumors can have different sizes and shapes, which can make their accurate and reliable diagnosis challenging for physicians.
 
-* **Complex Organ Structures:** Some organs, such as the liver or brain, have complex structures with intricate boundaries. Accurately segmenting these organs requires advanced algorithms that can handle complex anatomical shapes.
+* **Natural variations in the gastrointestinal system:** The presence of natural variables such as bowel movements, digestion, and gastric motility can make the diagnosis of gastrointestinal tumors more difficult and lead to errors and incorrect results in segmentation.
 
-* **Limited Training Data:** Annotated medical image data for training segmentation models is often limited and requires expert annotation. Acquiring large-scale annotated datasets can be challenging, leading to potential limitations in model performance.
+* **Noise and artifacts:** Noise present in images and artifacts can lead to errors in the diagnosis of cancerous masses and reduce the accuracy of the segmentation method.
 
-* **Real-time Processing:** In a clinical setting, real-time processing is crucial to support efficient diagnosis and treatment planning. The segmentation system should provide fast and accurate results within a clinically acceptable timeframe.
+### <code style="color : green">AI tragets</code>:
 
-### <code style="color : green">Goals</code>:
+* **Accuracy:** Segmentation should have high accuracy to accurately detect cancerous masses and prevent false diagnoses.
 
-* **Accurate Segmentation:** The primary goal is to develop a segmentation system that can accurately identify and segment healthy organs in medical scans. The system should provide precise boundaries for further analysis and treatment planning.
+* **Sensitivity:** Segmentation should have appropriate sensitivity to detect cancerous masses at early stages and prevent missed diagnoses.
 
-* **Robustness and Generalization:** The system should be robust to handle variations in image characteristics and adapt to different patient populations. It should generalize well to unseen data and be effective across different medical imaging modalities.
+* **Adaptability:** Segmentation should be able to adapt to different variations in images, including changes in lighting conditions, viewing angles, and sizes of masses.
 
-* **Efficiency:** The segmentation system should be efficient in terms of computational resources and processing time. Real-time or near-real-time segmentation is desirable to support timely decision-making in a clinical setting.
+* **Time efficiency:** Segmentation should operate effectively and quickly to process medical images rapidly and provide results to healthcare professionals.
 
-* **Integration with Clinical Workflow:** The system should be seamlessly integrated into the clinical workflow, allowing medical professionals to easily access and utilize the segmented organ information. The output should be compatible with existing medical imaging systems and tools.
+* **Robustness:** Segmentation should have sufficient robustness against image noise and various changes to provide reliable diagnostic results.
 
-* **Performance Evaluation:** A comprehensive evaluation of the segmentation system is necessary to assess its accuracy and performance. It should be compared against ground truth annotations and evaluated using appropriate metrics such as Dice coefficient, Hausdorff distance, or other domain-specific evaluation measures.
+### <code style="color : green">Medical tragets</code>:
+
+* **Early detection:** One of the main objectives of using segmentation in diagnosing gastrointestinal cancer masses is early detection of cancer. Early detection increases the possibility of more effective treatment and improves patients' chances of survival.
+
+* **Accurate and reliable diagnosis:** Segmentation, using advanced algorithms and techniques, is capable of accurately and reliably diagnosing cancer masses. This helps physicians make more accurate decisions regarding diagnosis and treatment of patients.
+
+* **Error reduction:** By using segmentation, human errors in diagnosing cancer masses are reduced. Machine algorithms can accurately detect cancer masses without personal bias.
+
+* **Determining the extent of cancer masses:** Segmentation helps determine the precise extent of cancer masses in the gastrointestinal system. This information assists physicians in planning more accurate surgeries or targeted treatments for the masses.
+
+* **Predicting growth and disease progression:** Segmentation can predict the growth and progression of cancer masses by analyzing and processing medical images. This information helps physicians plan appropriate follow-up and treatment for patients.
+
+* **Treatment monitoring:** With segmentation, it is possible to monitor the treatment progress of patients with gastrointestinal cancer masses over time. This information helps physicians evaluate the effectiveness of treatments and make decisions regarding necessary changes in patients' treatment plans.
+
+* **Clinical prognostication:** Segmentation assists in determining more accurate clinical predictions for patients with gastrointestinal cancer masses. This can aid physicians in making informed decisions about prognosis and treatment options.
+
 
 ## 2. Related Works
 This section explores existing research and solutions related to medical image segmentation. 
