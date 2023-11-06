@@ -36,19 +36,11 @@ Segmentation of gastrointestinal images obtained with integrated magnetic resona
 
 ### <code style="color : green">Medical targets</code>:
 
-* **Early detection:** One of the main objectives of using segmentation in diagnosing gastrointestinal cancer masses is early detection of cancer. Early detection increases the possibility of more effective treatment and improves patients' chances of survival.
+* **Faster detection of masses and quicker treatment process:** According to studies conducted by Carbone universities, in normal conditions and manually, it takes approximately 1 hour to identify the precise area of these masses for daily treatment and deliver radiation to the masses. This time can be reduced to 15 minutes using artificial intelligence.
 
-* **Accurate and reliable diagnosis:** Segmentation, using advanced algorithms and techniques, is capable of accurately and reliably diagnosing cancer masses. This helps physicians make more accurate decisions regarding diagnosis and treatment of patients.
+* **Early detection of masses:** Early detection improves the treatment process and helps physicians diagnose these masses earlier and initiate treatment before the patient's condition worsens. Artificial intelligence can increase the chances of patients' survival.
 
-* **Error reduction:** By using segmentation, human errors in diagnosing cancer masses are reduced. Machine algorithms can accurately detect cancer masses without personal bias.
-
-* **Determining the extent of cancer masses:** Segmentation helps determine the precise extent of cancer masses in the gastrointestinal system. This information assists physicians in planning more accurate surgeries or targeted treatments for the masses.
-
-* **Predicting growth and disease progression:** Segmentation can predict the growth and progression of cancer masses by analyzing and processing medical images. This information helps physicians plan appropriate follow-up and treatment for patients.
-
-* **Treatment monitoring:** With segmentation, it is possible to monitor the treatment progress of patients with gastrointestinal cancer masses over time. This information helps physicians evaluate the effectiveness of treatments and make decisions regarding necessary changes in patients' treatment plans.
-
-* **Clinical prognostication:** Segmentation assists in determining more accurate clinical predictions for patients with gastrointestinal cancer masses. This can aid physicians in making informed decisions about prognosis and treatment options.
+* **Accurate and more reliable diagnosis:** Although manually determining the area of masses by physicians is somewhat accurate, in some cases, it may introduce human errors and jeopardize the patient's health. Using artificial intelligence helps make this process more reliable.
 
 
 ## 2. Related Works
