@@ -21,7 +21,7 @@ Diagnosing gastrointestinal tumors is one of the challenges faced by doctors in 
 
 * **Noise and artifacts:** Noise present in images and artifacts can lead to errors in the diagnosis of cancerous masses and reduce the accuracy of the segmentation method.
 
-### <code style="color : green">AI tragets</code>:
+### <code style="color : green">AI targets</code>:
 
 * **Accuracy:** Segmentation should have high accuracy to accurately detect cancerous masses and prevent false diagnoses.
 
@@ -33,7 +33,7 @@ Diagnosing gastrointestinal tumors is one of the challenges faced by doctors in 
 
 * **Robustness:** Segmentation should have sufficient robustness against image noise and various changes to provide reliable diagnostic results.
 
-### <code style="color : green">Medical tragets</code>:
+### <code style="color : green">Medical targets</code>:
 
 * **Early detection:** One of the main objectives of using segmentation in diagnosing gastrointestinal cancer masses is early detection of cancer. Early detection increases the possibility of more effective treatment and improves patients' chances of survival.
 
