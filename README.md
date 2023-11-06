@@ -28,20 +28,11 @@ Segmentation of gastrointestinal images obtained with integrated magnetic resona
 * **Size and shape variations of tumors:** Gastrointestinal tumors can have different sizes and shapes, which can make their accurate and reliable diagnosis challenging for physicians.
 
 * **Natural variations in the gastrointestinal system:** The presence of natural variables such as bowel movements, digestion, and gastric motility can make the diagnosis of gastrointestinal tumors more difficult and lead to errors and incorrect results in segmentation.
-
-* **Noise and artifacts:** Noise present in images and artifacts can lead to errors in the diagnosis of cancerous masses and reduce the accuracy of the segmentation method.
-
 ### <code style="color : green">AI targets</code>:
 
-* **Accuracy:** Segmentation should have high accuracy to accurately detect cancerous masses and prevent false diagnoses.
+* **Accurate identification of cancerous masses:** As mentioned, for high doses of X-ray radiation, they should be directed towards the tumor and should not cause any harm to the stomach and intestines. Therefore, tumor segmentation needs to be done with high accuracy.
 
-* **Sensitivity:** Segmentation should have appropriate sensitivity to detect cancerous masses at early stages and prevent missed diagnoses.
-
-* **Adaptability:** Segmentation should be able to adapt to different variations in images, including changes in lighting conditions, viewing angles, and sizes of masses.
-
-* **Time efficiency:** Segmentation should operate effectively and quickly to process medical images rapidly and provide results to healthcare professionals.
-
-* **Robustness:** Segmentation should have sufficient robustness against image noise and various changes to provide reliable diagnostic results.
+* **Reduction of errors caused by different dimensions of masses:** Cancerous masses can have various dimensions, and their type should be detected in all dimensions.Misdiagnosing any type of these masses with different dimensions has a detrimental effect on the treatment of patients.
 
 ### <code style="color : green">Medical targets</code>:
 
