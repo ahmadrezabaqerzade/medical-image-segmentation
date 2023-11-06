@@ -36,7 +36,7 @@ Segmentation of gastrointestinal images obtained with integrated magnetic resona
 
 ### <code style="color : green">Medical targets</code>:
 
-* **Faster detection of masses and quicker treatment process:** According to studies conducted by Carbone universities, in normal conditions and manually, it takes approximately 1 hour to identify the precise area of these masses for daily treatment and deliver radiation to the masses. This time can be reduced to 15 minutes using artificial intelligence.
+* **Faster detection of masses and quicker treatment process:** According to studies conducted by The UW-Madison Carbone Cancer Center, in normal conditions and manually, it takes approximately 1 hour to identify the precise area of these masses for daily treatment and deliver radiation to the masses. This time can be reduced to 15 minutes using artificial intelligence.
 
 * **Early detection of masses:** Early detection improves the treatment process and helps physicians diagnose these masses earlier and initiate treatment before the patient's condition worsens. Artificial intelligence can increase the chances of patients' survival.
 
