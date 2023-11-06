@@ -14,6 +14,7 @@ Segmentation in artificial intelligence is one of the very important areas that 
 <img src="https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/city%20scape.png" width="300" height="300">  <img src="https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/535342_1_En_16_Fig1_HTML.png" width="300" height="300"> 
 
 Segmentation is also one of the most commonly used areas in the medical field for disease diagnosis. In medical imaging, segmentation includes:
+
 1. Segmentation of brain MRI images for detecting brain tumors and studying neurological diseases.
 2. Segmentation of lung images for lung cancer diagnosis and prognosis.
 3. Segmentation of breast MRI images for detecting normal breast tissue and breast cancer, among others.
