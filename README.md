@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation">
-    <img src="cover.png" alt="Logo" width="" height="200">
+    <img src="https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/cover.png" alt="Logo" width="" height="200">
   </a>
 
 <h1 align="center">Medica Image Segmentation</h1>
@@ -10,7 +10,7 @@ This repository serves as the template , focusing on medical image segmentation.
 
 ## 1. Problem Statement
 Segmentation in artificial intelligence is one of the very important areas that aims to determine the precise boundaries of one or multiple targets, requiring each pixel of the image to be labeled. Segmentation has various types, with three commonly used ones being semantic segmentation, instance segmentation, and panoptic segmentation (instance segmentation + semantic segmentation). Segmentation can be used in various fields such as medical image segmentation for disease diagnosis and urban image segmentation for self-driving cars, and so on.
-<img src="" width="" height="">  <img src="" width="" height=""> 
+<img src="https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/city%20scape.png" width="200" height="200">  <img src="https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/535342_1_En_16_Fig1_HTML.png" width="200" height="200"> 
 
 Segmentation is also one of the most commonly used areas in the medical field for disease diagnosis. In medical imaging, segmentation includes:
 1. Segmentation of brain MRI images for detecting brain tumors and studying neurological diseases.
