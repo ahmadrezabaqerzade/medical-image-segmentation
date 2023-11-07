@@ -53,7 +53,7 @@ In this figure, the tumor (pink thick line) is close to the stomach (red thick l
 
 article: <a href = "https://arxiv.org/pdf/1505.04597v1.pdf" >link</a>
 
-code: <a href = "https://github.com/labmlai annotated_deep_learning_paper_implementations">link</a>
+code: <a href = "https://github.com/milesial/Pytorch-UNet">link</a>
 
 U-Net is a type of convolutional neural network (CNN) that has been widely
 used for biomedical image segmentation tasks. It was specifically designed for
@@ -87,9 +87,9 @@ numerous variations and adaptations within the field of medical imaging.
 
 * **Attention U-Net: Learning Where to Look for the Pancreas**
 
-article: <a href = "https://arxiv.org/pdf/1505.04597v1.pdf" >link</a>
+article: <a href = "https://arxiv.org/pdf/1804.03999v3.pdf" >link</a>
 
-official code: <a href = "https://github.com/labmlai annotated_deep_learning_paper_implementations">link</a>
+official code: <a href = "https://github.com/ozan-oktay/Attention-Gated-Networks">link</a>
 
 The article introduces two methodologies: Fully Convolutional Network
 (FCN) and Attention Gates for Image Analysis.
@@ -172,9 +172,9 @@ Overall, the DDANet architecture incorporates residual blocks, squeeze and excit
 
 * **The Fully Convolutional Transformer for Medical Image Segmentation**
 
-article: <a href = "https://arxiv.org/pdf/2012.15245v1.pdf" >link</a>
+article: <a href = "https://arxiv.org/pdf/2206.00566v2.pdf" >link</a>
 
-official code: <a href = "https://github.com/nikhilroxtomar/DDANet">link</a>
+official code: <a href = "https://github.com/kingo233/FCT-Pytorch">link</a>
 
 The FCT layer consists of LayerNormalization-Conv-Conv-MaxPool operations, followed by a Gelu activation function. It applies Convolutional Attention using Depthwise-Convolutions instead of linear projection to preserve spatial context effectively. The output of the MaxPool operation is transformed using a Depthwise-Convolution operator and LayerNormalization. The resulting token map is flattened into a patch embedded input. Unlike other transformer-based approaches, the FCT layer uses Depthwise-Convolutions instead of linear projection for attention computation, reducing computational costs and improving spatial context.
 
