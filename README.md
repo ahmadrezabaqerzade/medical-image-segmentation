@@ -126,7 +126,7 @@ The article describes the UNET 3+ architecture, which is a neural network design
 
 By incorporating these methods, the UNET 3+ architecture demonstrates improved segmentation accuracy and performance compared to existing methods. The combination of the UNET architecture, full-scale skip connections, and densely connected convolutional blocks contributes to the effectiveness of the proposed approach.
 
-<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/unet3%2B.png" weight = 300 height = 300>
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/unet3%2B.png" weight = 150 height = 300>
 
 * **Stepwise Feature Fusion: Local Guides Global**
 
