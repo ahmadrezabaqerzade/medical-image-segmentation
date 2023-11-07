@@ -128,6 +128,25 @@ By incorporating these methods, the UNET 3+ architecture demonstrates improved s
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/unet3%2B.png" weight = 300 height = 300>
 
+* **Stepwise Feature Fusion: Local Guides Global**
+
+article: <a href = "https://arxiv.org/pdf/2203.03635v3.pdf" >link</a>
+
+official code: <a href = "https://github.com/Qiming-Huang/ssformer">link</a>
+
+The methodology described in this section focuses on enhancing the generalization ability and multi-scale feature processing capability of the model for polyp segmentation.
+
+1. Transformer Encoder: Instead of using a CNN as the encoder, a Transformer based on a pyramid structure is employed to provide better generalization ability and multi-scale feature processing. The encoder design from PVTv2 and Segformer is adopted, utilizing convolution operations to replace the positional encoding operation of traditional Transformers. This ensures consistency of spatial information and maintains excellent performance and stability.
+
+2. Aggregate Local and Global Features Stepwise (PLD): The authors introduce a novel multi-stage feature aggregation decoder called PLD (Pyramid Locality Decoder) to address the lack of local and detailed information processing in existing Transformer models. PLD consists of the Local Emphasis (LE) module and the Stepwise Feature Aggregation (SFA) module. LE module uses the local receptive field of convolution kernels to emphasize neighboring features and reduce attention dispersion. SFA progressively fuses features from different levels in the feature pyramid, guiding the attention of the model to critical regions.
+ 
+3. Stepwise Segmentation Transformer: Two models, SSFormer-S (Standard) and SSFormer-L (Large), are proposed based on different encoder scales. These models achieve state-of-the-art performance and competitive results in various polyp segmentation benchmarks, as well as in the ISIC-2018 and 2018 DATA Science Bowl competitions.
+
+Overall, the methodology involves utilizing Transformer encoders, introducing PLD for multi-stage feature aggregation, and developing SSFormer models for polyp segmentation tasks.
+
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/sff.png" weight = 300 height = 300>
+
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
 
