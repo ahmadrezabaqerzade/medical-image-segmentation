@@ -170,6 +170,22 @@ Overall, the DDANet architecture incorporates residual blocks, squeeze and excit
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/ddanet.png" width = 500 height = 300>
 
+* **The Fully Convolutional Transformer for Medical Image Segmentation**
+
+article: <a href = "https://arxiv.org/pdf/2012.15245v1.pdf" >link</a>
+
+official code: <a href = "https://github.com/nikhilroxtomar/DDANet">link</a>
+
+The FCT layer consists of LayerNormalization-Conv-Conv-MaxPool operations, followed by a Gelu activation function. It applies Convolutional Attention using Depthwise-Convolutions instead of linear projection to preserve spatial context effectively. The output of the MaxPool operation is transformed using a Depthwise-Convolution operator and LayerNormalization. The resulting token map is flattened into a patch embedded input. Unlike other transformer-based approaches, the FCT layer uses Depthwise-Convolutions instead of linear projection for attention computation, reducing computational costs and improving spatial context.
+
+The FCT layer also incorporates a Wide-Focus module, which includes a multi-branch Convolutional layer and a feature aggregation layer. This module enhances feature propagation and processes the features obtained from Convolutional Attention. Residual connections are used to improve feature propagation throughout the layer.
+
+The encoder of the FCT model consists of four FCT layers responsible for feature extraction and propagation. Each layer processes the output of the Convolutional Attention module using the Wide-Focus module. The model can also accept a multi-scale image pyramid input to highlight different classes and smaller regions of interest (ROIs) at different scales.
+
+The decoder takes the bottleneck representation from the encoder and generates binary or semantic segmentation maps. It uses skip connections from the encoder to create contextual relevance and concatenates feature maps from the encoder with the corresponding decoder layers. The decoder's architecture is symmetric to the encoder, and intermediate segmentation maps are outputted to provide additional supervision. The feature volume is up-sampled and processed through the FCT layer to learn the best representation.
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/ddanet.png" width = 500 height = 300>
+
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
 
