@@ -46,6 +46,10 @@ Segmentation of gastrointestinal images obtained with integrated magnetic resona
 ## 2. Related Works
 
 * **U-Net: Convolutional Networks for Biomedical Image Segmentation**
+article: <a href = "https://arxiv.org/pdf/1505.04597v1.pdf" >link</a>
+
+official code: <a href = "https://github.com/labmlai annotated_deep_learning_paper_implementations">link</a>
+
 U-Net is a type of convolutional neural network (CNN) that has been widely
 used for biomedical image segmentation tasks. It was specifically designed for
 handling the challenges of segmenting biomedical images, such as medical scans
@@ -75,6 +79,33 @@ segmentation, and more. Its architecture and design principles have inspired
 numerous variations and adaptations within the field of medical imaging.
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/u-net-architecture.png" weight = 300 height = 300>
+
+* **Attention U-Net: Learning Where to Look for the Pancreas**
+
+article: <a href = "https://arxiv.org/pdf/1505.04597v1.pdf" >link</a>
+
+official code: <a href = "https://github.com/labmlai annotated_deep_learning_paper_implementations">link</a>
+
+The article introduces two methodologies: Fully Convolutional Network
+(FCN) and Attention Gates for Image Analysis.
+FCN is a type of convolutional neural network that outperforms traditional
+approaches in medical image analysis. It learns domain-specific image features
+using stochastic gradient descent optimization and shares learned kernels across
+all pixels. FCN’s convolution operations effectively exploit the structural in-
+formation in medical images. It has been successfully applied to tasks such as
+cardiac MR, brain tumor, and abdominal CT image segmentation.
+Attention Gates (AGs) are integrated into the U-Net architecture, which is
+commonly used for image segmentation tasks due to its good performance and
+efficient GPU memory usage. AGs aim to capture a large receptive field and
+semantic contextual information. They progressively downsample the feature-
+map grid and identify salient image regions using attention coefficients. These
+coefficients are computed using additive attention, which allows for focus on
+subsets of target structures. AGs suppress feature responses in irrelevant back-
+ground regions without the need to crop a region of interest between networks.
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/attention%20u-net0.png" weight = 300 height = 300>
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/attention%20u-net.png" weight = 300 height = 300>
+
 
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
