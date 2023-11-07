@@ -46,9 +46,10 @@ Segmentation of gastrointestinal images obtained with integrated magnetic resona
 ## 2. Related Works
 
 * **U-Net: Convolutional Networks for Biomedical Image Segmentation**
+
 article: <a href = "https://arxiv.org/pdf/1505.04597v1.pdf" >link</a>
 
-official code: <a href = "https://github.com/labmlai annotated_deep_learning_paper_implementations">link</a>
+code: <a href = "https://github.com/labmlai annotated_deep_learning_paper_implementations">link</a>
 
 U-Net is a type of convolutional neural network (CNN) that has been widely
 used for biomedical image segmentation tasks. It was specifically designed for
@@ -106,6 +107,26 @@ ground regions without the need to crop a region of interest between networks.
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/attention%20u-net0.png" weight = 300 height = 300>
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/attention%20u-net.png" weight = 300 height = 300>
 
+* **UNET 3+: A FULL-SCALE CONNECTED UNET FOR MEDICAL IMAGE SEGMENTATION**
+
+article: <a href = "https://arxiv.org/pdf/2004.08790v1.pdf" >link</a>
+
+official code: <a href = "https://github.com/ZJUGiveLab/UNet-Version">link</a>
+
+
+The article describes the UNET 3+ architecture, which is a neural network designed for medical image segmentation. The methods used in the article include the following:
+
+1. UNET Architecture: The UNET 3+ architecture is an extension of the original UNET architecture. UNET is a popular architecture known for its effectiveness in image segmentation tasks. It consists of an encoder-decoder structure with skip connections that enable the fusion of information at different resolutions.
+
+2. Full-Scale Skip Connection: UNET 3+ introduces a full-scale skip connection that allows information from all resolutions to be fused at each level of the network. This helps capture both local and global information effectively, improving the segmentation accuracy.
+
+3. Densely Connected Convolutional Blocks: The UNET 3+ architecture incorporates densely connected convolutional blocks. These blocks enhance feature learning and promote information flow across different layers of the network. Densely connected connections allow each layer to directly access the feature maps of all preceding layers, facilitating the propagation of information.
+
+4. Training and Evaluation: The authors train and evaluate the UNET 3+ architecture using various medical imaging datasets. The datasets include tasks such as tumor segmentation and organ segmentation. Training involves optimizing the network parameters using suitable loss functions and optimization algorithms. Evaluation is performed by measuring the segmentation accuracy and comparing the results with state-of-the-art segmentation methods.
+
+By incorporating these methods, the UNET 3+ architecture demonstrates improved segmentation accuracy and performance compared to existing methods. The combination of the UNET architecture, full-scale skip connections, and densely connected convolutional blocks contributes to the effectiveness of the proposed approach.
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/unet3%2B.png" weight = 300 height = 300>
 
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
