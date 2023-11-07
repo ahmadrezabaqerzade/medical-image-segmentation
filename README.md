@@ -147,6 +147,25 @@ Overall, the methodology involves utilizing Transformer encoders, introducing PL
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/sff.png" weight = 300 height = 300>
 
+* **DDANet: Dual Decoder Attention Network for Automatic Polyp Segmentation**
+
+article: <a href = "https://arxiv.org/pdf/2012.15245v1.pdf" >link</a>
+
+official code: <a href = "https://github.com/nikhilroxtomar/DDANet">link</a>
+
+The DDANet architecture described in the section consists of three key components: residual blocks, squeeze and excitation blocks, and the overall DDANet architecture.
+
+1. Residual Block: The authors introduce a residual block to address the challenges of vanishing or exploding gradients as the network depth increases. The residual block comprises two 3x3 convolutions, batch normalization, and a ReLU activation function. It also includes a skip-connection that connects the input with the output of the residual block, facilitating better gradient flow during backpropagation.
+
+2. Squeeze and Excitation Block: To address the equal importance treatment of every feature channel in CNNs, the authors introduce a squeeze and excitation layer. This layer acts as a channel-wise attention mechanism, re-weighting each feature channel to create a more accurate feature map. It consists of two steps: compressing feature maps using global average pooling and passing them through a 2-layer neural network to scale the feature channels.
+
+3. DDANet Architecture: The proposed DDANet architecture follows an encoder-decoder design, similar to ResUNet++. It combines the features of residual learning and the squeeze and excitation network. DDANet consists of a single encoder shared by dual decoders. The encoder network includes four encoder blocks, while each decoder network includes four decoder blocks. Skip connections are used to fetch features from earlier layers at their original resolution, increasing feature representation strength and aiding gradient flow. The decoder blocks output a segmentation mask and a reconstructed grayscale image.
+
+Overall, the DDANet architecture incorporates residual blocks, squeeze and excitation blocks, and an encoder-decoder design to improve performance in image segmentation tasks. 
+
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/ddanet.png" weight = 300 height = 300>
+
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
 
