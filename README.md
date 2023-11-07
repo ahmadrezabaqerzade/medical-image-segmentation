@@ -181,7 +181,18 @@ The decoder takes the bottleneck representation from the encoder and generates b
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/FCT.png" width = 500 height = 300>
 
 ## 3. The Proposed Method
-Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
+
+Among the related works, we observed that the UNet architecture has been widely popular in this field, and active individuals in this domain have attempted to increase the accuracy by adding modules to this structure. We also noticed that the "step-wise feature fusion" paper mainly focuses on polyps and may not be easily generalized to this dataset. In the DDANet architecture, we saw a prominent use of squeeze and excitation, but overall, it lacks the power of attention and transformer-based networks. With these interpretations in mind, we aim to select one model among the UNet-based models in the first three cases and the FCT model, which also incorporates the UNet architecture. In the first three cases, we observed that the UNet architecture has advanced over time, with the introduction of attention UNet in 2018 and UNet3+ in 2021 as more advanced versions. Considering that our goal is good accuracy, we choose the UNet3+ architecture among the three structures. In the next step, we observed that the proposed FCT structure adds modules that enhance supervision for segmentation in addition to the usual segmentation process (an encoder-decoder structure with symmetry and the generation of auxiliary segmentations). Furthermore, the use of depth-wise convolution reduces computational costs. This network, based on convolutional transformers, has also achieved good accuracy on various datasets. Moreover, the outputs of this paper are closer to our dataset's outputs, as can be seen in the figure below:
+
+<img src = "" >
+
+However, it should be noted that using basic methods and developing them is one of the important parameters for learning, and since there are many unknowns and parameters in the FCT network, we start with the UNet network and try to develop it.
+
+This decision is made because the UNet architecture is well-established and widely used in the field of image segmentation. It provides a solid foundation, and by building upon it, we can incrementally introduce improvements and modifications to enhance its performance. Starting with a familiar and widely studied architecture like UNet allows us to leverage existing knowledge and techniques, making the development process more manageable and interpretable.
+
+As we gain a better understanding of the dataset and experiment with the UNet architecture, we can gradually introduce modifications such as incorporating attention mechanisms, adding auxiliary segmentation modules, or exploring transformer-based convolutional networks like FCT. This step-by-step approach allows us to control and analyze the impact of each modification, facilitating a more effective and informed development process.
+
+In summary, starting with the UNet architecture and gradually extending it provides a balanced approach that combines the benefits of a strong foundation with the flexibility to incorporate advancements and tailor the model to the specific requirements of the dataset.
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
