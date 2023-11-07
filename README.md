@@ -184,7 +184,7 @@ The encoder of the FCT model consists of four FCT layers responsible for feature
 
 The decoder takes the bottleneck representation from the encoder and generates binary or semantic segmentation maps. It uses skip connections from the encoder to create contextual relevance and concatenates feature maps from the encoder with the corresponding decoder layers. The decoder's architecture is symmetric to the encoder, and intermediate segmentation maps are outputted to provide additional supervision. The feature volume is up-sampled and processed through the FCT layer to learn the best representation.
 
-<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/ddanet.png" width = 500 height = 300>
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/FCT.png" width = 500 height = 300>
 
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
