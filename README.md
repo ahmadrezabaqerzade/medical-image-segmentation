@@ -168,7 +168,7 @@ The DDANet architecture described in the section consists of three key component
 Overall, the DDANet architecture incorporates residual blocks, squeeze and excitation blocks, and an encoder-decoder design to improve performance in image segmentation tasks. 
 
 
-<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/ddanet.png" weight = 300 height = 300>
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/ddanet.png" weight = 500 height = 300>
 
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
