@@ -44,7 +44,37 @@ Segmentation of gastrointestinal images obtained with integrated magnetic resona
 
 
 ## 2. Related Works
-This section explores existing research and solutions related to medical image segmentation. 
+
+* **U-Net: Convolutional Networks for Biomedical Image Segmentation**
+U-Net is a type of convolutional neural network (CNN) that has been widely
+used for biomedical image segmentation tasks. It was specifically designed for
+handling the challenges of segmenting biomedical images, such as medical scans
+and histological slides.
+The name ”U-Net” comes from the shape of its architecture, which resembles
+an upside-down ”U”. The network consists of an encoder path and a decoder
+path. The encoder path is responsible for capturing context and extracting
+hierarchical features from the input image, while the decoder path reconstructs
+the segmented image based on the extracted features.
+The encoder path typically consists of a series of convolutional and pooling
+layers that gradually reduce the spatial dimensions of the input image while
+increasing the number of channels (features). This allows the network to capture
+high-level contextual information at different scales.
+The decoder path uses upsampling and concatenation operations to recover
+the spatial resolution lost during the encoding process. Upsampling layers ex-
+pand the feature maps back to the original size, while concatenated skip connec-
+tions combine the feature maps from the corresponding encoding layers. This
+enables the network to preserve detailed information from earlier layers and
+produce accurate segmentation maps.
+U-Net also uses skip connections between the encoder and decoder paths
+to facilitate information flow and improve segmentation accuracy. These skip
+connections allow the network to access both low-level and high-level features,
+enabling precise localization of objects in the segmented image.
+Overall, U-Net has been proven effective for a wide range of biomedical
+image segmentation tasks, including organ segmentation, tumor detection, cell
+segmentation, and more. Its architecture and design principles have inspired
+numerous variations and adaptations within the field of medical imaging.
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/u-net-architecture.png" weight = 300 height = 300>
 
 ## 3. The Proposed Method
 Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
