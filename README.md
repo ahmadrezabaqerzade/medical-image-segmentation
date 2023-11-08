@@ -195,7 +195,17 @@ As we gain a better understanding of the dataset and experiment with the UNet ar
 In summary, starting with the UNet architecture and gradually extending it provides a balanced approach that combines the benefits of a strong foundation with the flexibility to incorporate advancements and tailor the model to the specific requirements of the dataset.
 
 ## 4. Implementation
-This section delves into the practical aspects of the project's implementation.
+Below, you can see the relevant block diagrams for the training and inference sections:
+
+* train:
+
+<img src = "">
+
+* inference:
+
+<img src = "">
+
+It should be noted that in the U-Net structure, the output of the final layer has two channels or binary classes, and we need to change the number of channels to match the number of classes we have.
 
 ### 4.1. Dataset
 Under this subsection, you'll find information about the dataset used for the medical image segmentation task. It includes details about the dataset source, size, composition, preprocessing, and loading applied to it.
