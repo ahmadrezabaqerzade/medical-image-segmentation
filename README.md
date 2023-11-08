@@ -199,11 +199,11 @@ Below, you can see the relevant block diagrams for the training and inference se
 
 * train:
 
-<img src = "">
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/train.png">
 
 * inference:
 
-<img src = "">
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/inference.png">
 
 It should be noted that in the U-Net structure, the output of the final layer has two channels or binary classes, and we need to change the number of channels to match the number of classes we have.
 
