@@ -211,14 +211,14 @@ It should be noted that in the U-Net structure, the output of the final layer ha
 
 The dataset contains a file named train.csv, which includes 115,488 rows. Each image has three parts: small bowel, large bowel, and stomach, which define these three regions. I divided the dataset into three sections: train, validation, and test, based on three files: train.txt, valid.txt, and test.txt. The data size in each section is as follows: 82,320 samples for training, 9,504 samples for validation, and 23,664 samples for testing. A significant portion of the segmentation section has NaN values, which I removed. After removing the NaN values, the number of samples in the training set reached 24,524. As you can see in the image below, each sample is accompanied by the corresponding image and mask:
 
-<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/inference.png">
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/show%20sample.png">
 
 In the training dataset, the number of samples corresponding to each class is indicated below:
 Large bowel: 10,143
 Small bowel: 8,190
 Stomach: 6,191
 
-<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/inference.png">
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/class%20eda.png">
 
 As you can see, a larger volume of samples are focused on the large bowel, while a smaller volume of data is used to detect the stomach.
 
@@ -228,11 +228,17 @@ In terms of image size, they can be divided into four categories, with their siz
 (234, 234): 117
 (276, 276): 1,094
 
-<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/inference.png">
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/shape%20eda.png">
 
 In the next step, we attempted to preprocess these data, processing the images and masks so that each image accounts for one sample, and all labeled and masked regions are included in one image. For example, if an image has all three labels and masked regions, they should not be separated. Please note that the masks in the train.csv file are RLE encoded and need to be converted to a masked region.
 
 After applying the preprocessing and writing the class for the dataset, the number of samples in the training set reached 12,030. The number of samples for validation and testing also became 1,493 and 3,067, respectively.
+
+new mask:
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/alllabels.png">
+
+
 
 
 ### 4.2. Model
