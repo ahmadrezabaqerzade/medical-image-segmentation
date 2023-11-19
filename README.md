@@ -197,11 +197,11 @@ In summary, starting with the UNet architecture and gradually extending it provi
 ## 4. Implementation
 Below, you can see the relevant block diagrams for the training and inference sections:
 
-* train:
+* **train:**
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/train.png">
 
-* inference:
+* **inference:**
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/inference.png">
 
