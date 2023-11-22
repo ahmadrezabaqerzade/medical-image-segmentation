@@ -234,7 +234,7 @@ In the next step, we attempted to preprocess these data, processing the images a
 
 After applying the preprocessing and writing the class for the dataset, the number of samples in the training set reached 12,030. The number of samples for validation and testing also became 1,493 and 3,067, respectively.
 
-new mask:
+* **new mask:**
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/alllabels.png">
 
