@@ -310,27 +310,27 @@ n this section, we use the Dice coefficient as the performance metric and visual
 
 The following images display the model's output and the ground truth masks:
 
-**Dice:**65.82
+**Dice:** 65.82
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/65.82.png">
 
-**Dice:**72.22
+**Dice:** 72.22
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/72.22.png">
 
-**Dice:**73.69
+**Dice:** 73.69
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/73.69.png">
 
-**Dice:**77.79
+**Dice:** 77.79
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/77.79.png">
 
-**Dice:**80.07
+**Dice:** 80.07
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/80.07.png">
 
-**Dice:**86.73
+**Dice:** 86.73
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/86.73.png">
 
