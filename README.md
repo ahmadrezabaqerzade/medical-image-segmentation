@@ -303,12 +303,9 @@ epoch **0-19** with **lr = 0.01** and **weight decay = 1e-6** and epoch **19-20*
 
 n this section, we use the Dice coefficient as the performance metric and visualize the model's output. The Dice and Loss values for the training, validation, and test sets are shown in the table below:
 
-| Dataset  | Dice | Loss |
-
+| Dataset  | Dice |
 | ------------- | ------------- |
-
 | Valid  | 77.65  |
-
 | Train  | 76.34  |
 
 
