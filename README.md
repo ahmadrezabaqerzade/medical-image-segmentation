@@ -330,7 +330,7 @@ The following images display the model's output and the ground truth masks:
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/80.07.png">
 
-**Dice:** 86.73
+**Dice:**  86.73
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/86.73.png">
 
