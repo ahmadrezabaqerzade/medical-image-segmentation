@@ -299,5 +299,5 @@ epoch **0-19** with **lr = 0.01** and **weight decay = 1e-6** and epoch **19-20*
 
 
 ### 4.5. Evaluate
-In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's segmentation results are quantified and provides insights into the model's effectiveness.
+
 
