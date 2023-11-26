@@ -256,7 +256,18 @@ After applying the preprocessing and writing the class for the dataset, the numb
 
 
 ### 4.2. Model
-In this subsection, the architecture and specifics of the deep learning model employed for the segmentation task are presented. It describes the model's layers, components, libraries, and any modifications made to it.
+
+The model resource: <a href=https://github.com/milesial/Pytorch-UNet>link</a>
+
+You can see the changes made and the set hyperparameters in the model below:
+
+**pretrained = False**
+
+**scale = 0.0**
+
+**New structure:**
+
+<img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/change%20model.png">
 
 ### 4.3. Configurations
 This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
