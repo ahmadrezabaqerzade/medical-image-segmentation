@@ -213,15 +213,15 @@ It should be noted that in the U-Net structure, the output of the final layer ha
 
 **train_case.csv:** train dataset consists of image address, case id, class and rle segmentation without nan in segmentation row
 
-**train_info.csv:**train dataset consists of image address, case id, class and rle segmentation with nan in segmentation row
+**train_info.csv:** train dataset consists of image address, case id, class and rle segmentation with nan in segmentation row
 
-**test_case.csv:**test dataset consists of image address, case id, class and rle segmentation without nan in segmentation row
+**test_case.csv:** test dataset consists of image address, case id, class and rle segmentation without nan in segmentation row
 
-**test_info.csv:**test dataset consists of image address, case id, class and rle segmentation with nan in segmentation row
+**test_info.csv:** test dataset consists of image address, case id, class and rle segmentation with nan in segmentation row
 
-**valid_case.csv:**valid dataset consists of image address, case id, class and rle segmentation without nan in segmentation row
+**valid_case.csv:** valid dataset consists of image address, case id, class and rle segmentation without nan in segmentation row
 
-**valid_info.csv:**valid dataset consists of image address, case id, class and rle segmentation with nan in segmentation row
+**valid_info.csv:** valid dataset consists of image address, case id, class and rle segmentation with nan in segmentation row
 
 The dataset contains a file named train.csv, which includes 115,488 rows. Each image has three parts: small bowel, large bowel, and stomach, which define these three regions. I divided the dataset into three sections: train, validation, and test, based on three files: train.txt, valid.txt, and test.txt. The data size in each section is as follows: 82,320 samples for training, 9,504 samples for validation, and 23,664 samples for testing. A significant portion of the segmentation section has NaN values, which I removed. After removing the NaN values, the number of samples in the training set reached 24,524. As you can see in the image below, each sample is accompanied by the corresponding image and mask:
 
