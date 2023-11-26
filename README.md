@@ -273,7 +273,7 @@ You can see the changes made and the set hyperparameters in the model below:
 
 ### 4.3. Configurations
 
-**Optimizer: SGD**
+**Optimizer: SGD with momentum**
 
 **Loss function: Weighted Cross Entropy with Weights 0.4 for 0 class and 0.8 for 1, 2 and 3**
 
@@ -294,7 +294,9 @@ where X is the predicted set of pixels and Y is the ground truth.
 
 **Batch size:16**
 
-**epoch 0-19 with lr = 0.01 and weight decay = 1e-6 and epoch 19-20 with lr = 0.001 and weight decay = 1e-3**
+**epoch 0-19 with lr = 0.01 and weight decay = 1e-6 and epoch 19-20 with lr = 0.001 and weight decay = 1e-3. After 10 epochs, if the validation loss does not improve for one epochs, the learning rate is halved**
+
+
 
 ### 4.5. Evaluate
 In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's segmentation results are quantified and provides insights into the model's effectiveness.
