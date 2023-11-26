@@ -272,10 +272,29 @@ You can see the changes made and the set hyperparameters in the model below:
 **where N+1 is number of classes + background class**
 
 ### 4.3. Configurations
-This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
+
+**Optimizer: SGD**
+
+**Loss function: Weighted Cross Entropy with Weights 0.4 for 0 class and 0.8 for 1, 2 and 3**
+
+**Metric: Dice that i import that from torchmetrics**
+
+This competition is evaluated on the mean Dice coefficient.
+The Dice coefficient can be used to compare the pixel-wise agreement between a predicted segmentation and its corresponding ground truth.
+Dice coefficient is 2 times The area of Overlap divided by the total number of pixels in both the images
+Dice coeff image
+
+The formula is given by:
+
+2∗|X∩Y|/(|X|+|Y|)
+ 
+where X is the predicted set of pixels and Y is the ground truth.
 
 ### 4.4. Train
-Here, you'll find instructions and code related to the training of the segmentation model. This section covers the process of training the model on the provided dataset.
+
+**Batch size:16**
+
+**epoch 0-19 with lr = 0.01 and weight decay = 1e-6 and epoch 19-20 with lr = 0.001 and weight decay = 1e-3**
 
 ### 4.5. Evaluate
 In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's segmentation results are quantified and provides insights into the model's effectiveness.
