@@ -269,6 +269,8 @@ You can see the changes made and the set hyperparameters in the model below:
 
 <img src = "https://github.com/ahmadrezabaqerzade/medical-image-segmentation/blob/main/images/change%20model.png">
 
+**where N+1 is number of classes + background class**
+
 ### 4.3. Configurations
 This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
 
