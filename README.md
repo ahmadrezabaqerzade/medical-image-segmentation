@@ -294,7 +294,7 @@ where X is the predicted set of pixels and Y is the ground truth.
 
 **Batch size:16**
 
-**epoch 0-19 with lr = 0.01 and weight decay = 1e-6 and epoch 19-20 with lr = 0.001 and weight decay = 1e-3. After 10 epochs, if the validation loss does not improve for one epochs, the learning rate is halved**
+epoch **0-19** with **lr = 0.01** and **weight decay = 1e-6** and epoch **19-20** with **lr = 0.001** and **weight decay = 1e-3**. After **10** epochs, if the validation loss does not improve for one epochs, the learning rate is **halved**.
 
 
 
